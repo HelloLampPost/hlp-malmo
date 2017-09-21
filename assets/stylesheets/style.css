@@ -952,7 +952,7 @@ a {
 
 .hero.message {
   background: #FFD100;
-  height: 65vh; }
+  height: 500px; }
   .hero.message h1 {
     text-align: center;
     color: #2A2A2A;
@@ -1172,8 +1172,8 @@ a {
     border-bottom: 0; }
   @media (max-width: 960px) {
     .hero.message {
-      height: auto;
-      overflow: hidden; }
+      height: 650px;
+      padding: 20px 0; }
       .hero.message img.bg-image {
         position: absolute;
         top: 0;
@@ -1189,11 +1189,15 @@ a {
       .hero.message .text-row .col-6 {
         width: 100%; }
         .hero.message .text-row .col-6 h1 {
-          font-size: 1.2em;
-          line-height: 1.4; }
+          font-size: 1.6em;
+          text-align: left;
+          line-height: 1.3;
+          width: 210px; }
       .hero.message .bubble {
         width: 100%;
         font-size: 0.8em; }
+      .hero.message .bubble.question {
+        margin-top: 80px; }
       .hero.message .bubble-inner {
         font-size: 16px; }
       .hero.message .bubble-inner h4 {
