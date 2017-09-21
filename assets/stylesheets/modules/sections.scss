@@ -186,7 +186,7 @@
 		overflow: hidden;
 		margin-top: 68px;
 		max-height: auto;
-		padding: 35px 0 0 0;
+		padding: 45px 0 0 0;
 
 		.col-6 {
 			width: 100%;
@@ -469,7 +469,7 @@
 	@include mq("small", "max-width") {
 		height: auto;
 		overflow: hidden;
-		
+
 		img.bg-image {
 			position: absolute;
 			top: 0;
