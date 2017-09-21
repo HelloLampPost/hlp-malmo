@@ -3,7 +3,7 @@
 // 	Footer
 // =================================================================
 
-footer {
+.footer {
 	padding: 20px 0 18px 0;
 	background: darken($colorTwo, 5%);
 	font-size: 16px;
@@ -52,5 +52,15 @@ footer {
 			float: left;
 		}
 	}
+	}
+}
+
+#malmo-footer {
+	span {
+		color: #000;
+	}
+
+	a {
+		text-decoration: underline;
 	}
 }

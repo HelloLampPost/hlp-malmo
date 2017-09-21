@@ -6,11 +6,28 @@
   })
 </script>
 <article class="homepage">
+  <section class="hero">
+    <div class="grid-container">
+        <div class="row text-row">
+          <div class="col-8">
+            <h2><%= I18n.t(:description) %></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="shift-2 col-8">
+            <div class="image">
+              <iframe src="https://player.vimeo.com/video/228964697" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="js-scroll-down-button scroll-down-button"><%= I18n.t(:how_it_works) %></a>
+  </section>
   <section class="hero message">
     <div class="grid-container">
         <div class="row text-row">
           <div class="col-6">
-            <h1><%= I18n.t(:description) %></h1>
+            <h1><%= I18n.t(:ticker_title) %></h1>
           </div>
         </div>
         <div class="row">
@@ -35,7 +52,6 @@
           </div>
         </div>
       </div>
-      <a class="js-scroll-down-button scroll-down-button">How It Works</a>
   </section>
   <section class="process">
     <div class="grid-container">
@@ -44,8 +60,8 @@
           <div class="image-circle">
             <img src="/images/process-1.svg">
           </div>
-          <h4>Pick An Object</h4>
-          <p>Look out for an item of street furniture, object or building with a code on it.</p>
+          <h4><%= I18n.t(:pick_an_object) %></h4>
+          <p><%= I18n.t(:pick_an_object_text) %></p>
         </div>
       </div>
       <div class="col-4">
@@ -53,8 +69,8 @@
           <div class="image-circle">
             <img src="/images/process-2.svg">
           </div>
-          <h4>Say Hello</h4>
-          <p>Send a text in this format: <span class="bold">Hello object #code</span> e.g. “Hello Lamp Post #B6291”.</p>
+          <h4><%= I18n.t(:say_hello) %></h4>
+          <p><%= I18n.t(:say_hello_text) %></p>
         </div>
       </div>
       <div class="col-4">
@@ -62,13 +78,13 @@
           <div class="image-circle">
             <img src="/images/process-3.svg">
           </div>
-          <h4>Keep Talking</h4>
-          <p>You’ll soon get a reply. Answer the object’s questions and learn what other people have to say.</p>
+          <h4><%= I18n.t(:keep_talking) %></h4>
+          <p><%= I18n.t(:keep_talking_text) %></p>
         </div>
       </div>
     </div>
   </section>
-    <section id="information" class="information">
+  <section id="information" class="information">
       <img src="/images/bg-how-it-works.jpg">
       <div class="right-block"></div>
       <div class="grid-container">
@@ -76,6 +92,7 @@
           <h5><%= I18n.t(:information) %></h5>
           <h1><%= I18n.t(:information_title) %></h1>
           <p><%= I18n.t(:information_text) %></p>
+          <p><%= I18n.t(:information_text_2) %></p>
           <a class="link-btn-one js-learn-more"><%= I18n.t(:information_cta_1) %></a>
         </div>
       </div>
@@ -90,6 +107,35 @@
         <div class="col-6 pushed-column">
           <p><%= I18n.t(:more_information_text_3) %></p>
           <p><%= I18n.t(:more_information_text_4) %></p>
+        </div>
+      </div>
+    </section>
+    <section class="object-icon">
+      <div class="grid-container">
+        <div class="row">
+          <div class="object-swiper">
+            <h2><%= I18n.t(:text_title_1) %></h2>
+            <div class="bubble">
+              <h2 class="active-object"><%= I18n.t(:hello_utility_box) %></h2>
+            </div>
+            <h2 class="text-number"><%= I18n.t(:text_title_2) %></h2>
+            <div>
+            <div class="button-next"></div>
+            <div class="button-prev"></div>
+            </div>
+             <div class="swiper-wrapper">
+                 <div object-code="<%= I18n.t(:hello_utility_box) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_bin) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_pier) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_public_bike) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_bike_pump) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_bike_station) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_public_toilet) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_parking_meter) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+                 <div object-code="<%= I18n.t(:hello_vehicle) %>" class="swiper-slide"><img class="image-object" src="/images/bike.svg"></div>
+             </div>
+             <div class="swiper-pagination"></div>
+         </div>
         </div>
       </div>
     </section>

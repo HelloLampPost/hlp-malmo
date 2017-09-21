@@ -65,11 +65,10 @@
 
 .hero {
 	width: 100%;
-	height: 120vh;
-	max-height: 848px;
+	height: 90vh;
 	margin: 0;
-	padding: 90px 0 0 0;
-	background: #EDBF00;
+	padding: 50px 0 0 0;
+	background: $colorThree;
 	position: relative;
 	overflow: hidden;
 
@@ -79,13 +78,20 @@
 		margin: auto;
 	}
 
-	h1 {
-		font-size: 1.4em;
+	.col-8 {
+		float: none;
+		display: block;
+		margin: auto;
+	}
+
+	h2 {
+		font-size: 1.5em;
 		text-align: center;
-		font-weight: 600;
-		line-height: 1.2;
-		margin-bottom: 50px;
-		color: $colorTwo;
+		font-weight: 500;
+		line-height: 1.1;
+		padding: 0 40px;
+		margin-bottom: 30px;
+		color: #fff;
 	}
 
 	.link-btn-one {
@@ -180,9 +186,13 @@
 		overflow: hidden;
 		margin-top: 68px;
 		max-height: auto;
-		padding: 20px 0 100px 0;
+		padding: 20px 0 20px 0;
 
 		.col-6 {
+			width: 100%;
+		}
+
+		.col-8 {
 			width: 100%;
 		}
 
@@ -191,17 +201,15 @@
 			display: block;
 		}
 
-		h1 {
-			font-size: 1.4em;
+		h2 {
+			font-size: 1.2em;
+			line-height: 1.3;
+			padding: 0;
+			margin: 20px 0;
 		}
 
 		.text-row {
 			margin-top: 50px;
-		}
-
-		.col-8 {
-			width: 100%;
-			padding: 20px 0;
 		}
 
 		.shift-2 {
@@ -228,13 +236,19 @@
 }
 
 .hero.message {
-	height: 100vh;
-	max-height: 825px;
+	background: $colorOne;
+	height: 65vh;
+
+	h1 {
+		text-align: center;
+		color: $colorTwo;
+		padding-bottom: 0;
+	}
 
 	.text-row {
 		position: relative;
 		z-index: 50;
-		margin-top: 50px;
+		margin: 0;
 
 		.col-6 {
 			display: block;
@@ -244,14 +258,14 @@
 		}
 
 		.col-6 h1 {
-			font-size: 1.45em;
+			font-weight: 500;
+			font-size: 1.55em;
 			padding-bottom: 20px;
 		}
 	}
 
-
 	.bubble {
-		margin-top: 120px;
+		margin-top: 40px;
 	  @include calc(width, "50% - 15px");
 	  box-sizing: border-box;
 	  position: absolute;
@@ -454,7 +468,6 @@
 	}
 
 	@include mq("small", "max-width") {
-		max-height: 850px;
 
 		img.bg-image {
 			position: absolute;
@@ -536,11 +549,11 @@
 }
 
 .process {
-	background: lighten($colorTwo, 5%);
+	background: $colorThree;
 	height: auto;
 	overflow: auto;
 	width: 100%;
-	padding: 100px 0;
+	padding: 70px 0;
 
 	.col-4:last-child .process-item:last-child:after {
 		display: none;
@@ -714,7 +727,7 @@
 	display: block;
 	overflow: hidden;
 	position: relative;
-	background: $colorTwo;
+	background: #fff;
 
 	img {
 		width: 100%;
@@ -725,7 +738,7 @@
 	}
 
 	.col-6 {
-		background: $colorTwo;
+		background: #fff;
 		float: right;
 		box-sizing: border-box;
 		@include calc(padding-left, "8.33% + 2px");
@@ -735,22 +748,25 @@
 
 	h5 {
 		margin-bottom: 50px;
+		color: $colorTwo;
+		border: 1px solid $colorTwo;
 	}
 
 	h1 {
-		color: #44BFEF;
+		color: $colorTwo;
 		line-height: 1.2;
 		margin-bottom: 30px;
 	}
 
 	p {
-		color: #fff;
+		color: $colorTwo;
 		opacity: 0.8;
 	}
 
 	.link-btn-one {
 		margin-top: 40px;
-		background: #44BFEF;
+		background: $colorOne;
+		color: $colorTwo;
 	}
 
 	.link-btn-one:after {
@@ -765,7 +781,7 @@
 	.right-block {
 		position: absolute;
 		right: 0;
-		background: $colorTwo;
+		background: #fff;
 		width: 40%;
 		float: right;
 		height: 100%;
@@ -801,13 +817,115 @@
 	}
 }
 
+.object-icon {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: $colorThree;
+	padding: 40px 0;
+
+	h2 {
+		width: inherit;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 70px;
+		font-size: 1.7em;
+		color: $colorTwo;
+	}
+
+	.active-object {
+		color: #fff;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 4px 4px 4px 0 ;
+		padding: 3px 10px;
+		margin-top: -6px;
+		position: relative;
+
+		&:after {
+	  	content: "";
+	  	display: block;
+	  	background-image: url('/images/bubble_triangle_white_transparent.svg');
+	  	background-position: 0 0;
+	  	background-repeat: no-repeat;
+	  	background-size: 100% 100%;
+	  	width: 27px;
+	  	height: 27px;
+	  	position: absolute;
+	  	bottom: -25px;
+	  	left: 0;
+	  }
+	}
+
+	.button-next, .button-prev {
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		margin-top: -10px;
+		display: block;
+		float: right;
+		background-image: url('/images/arrow-right.svg');
+		opacity: 0.5;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		@include transition(all, 0.2s, ease-in-out);
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+
+	.button-prev {
+		@include transform(rotate(180deg));
+	}
+
+	@include mq("small", "max-width") {
+		padding: 20px 0;
+
+		.button-next, .button-prev {
+			display: none;
+		}
+
+		.swiper-slide {
+			width: 100%;
+		}
+
+		h2 {
+			width: 100%;
+			color: #fff;
+			margin-bottom: 30px;
+			font-size: 1.7em;
+			text-align: center;
+		}
+
+		h2.text-number {
+			margin-bottom: 50px;
+		}
+
+		h2.active-object {
+			padding: 10px 0;
+			margin-bottom:20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		.swiper-slide .image-object {
+			width: 80%;
+			display: block;
+			margin: 0 auto;
+		}
+
+	}
+
+}
+
 .how-to-play {
 	width: 100%;
 	clear: both;
 	display: block;
 	overflow: hidden;
 	position: relative;
-	background: #44BFEF;
+	background: $colorOne;
 	display: none;
 
 	.col-6 {
