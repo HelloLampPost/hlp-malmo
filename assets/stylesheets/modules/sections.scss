@@ -826,6 +826,63 @@
 	}
 }
 
+.how-to-play {
+	width: 100%;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	background: $colorOne;
+	display: none;
+
+	.col-6 {
+		padding: 80px 20px 80px 20px;
+	}
+
+	.pushed-column {
+		padding-top: 148px;
+	}
+
+	h5 {
+		margin-bottom: 50px;
+		color: $colorTwo;
+		border: 1px solid $colorTwo;
+		width: intrinsic;
+		max-width: 140px;
+	}
+
+	h1 {
+		color: $colorTwo;
+		line-height: 1.2;
+		margin-bottom: 30px;
+	}
+
+	p {
+		color: $colorTwo;
+		opacity: 0.8;
+	}
+
+	p.small {
+		margin-top: 5px;
+	}
+
+	&.active {
+		display: block;
+	}
+
+	@include mq("small", "max-width") {
+		.col-6 {
+			width: 100%;
+			padding: 50px 0px 0px 0px;
+		}
+
+		.pushed-column {
+			padding-top: 0px;
+			padding-bottom: 50px;
+		}
+	}
+}
+
 .object-icon {
 	width: 100%;
 	height: auto;
@@ -923,65 +980,77 @@
 			display: block;
 			margin: 0 auto;
 		}
-
 	}
-
 }
 
-.how-to-play {
-	width: 100%;
-	clear: both;
-	display: block;
-	overflow: hidden;
-	position: relative;
+.information-longform {
 	background: $colorOne;
-	display: none;
+	padding: 72px 0;
+	height: auto;
+	overflow: auto;
 
-	.col-6 {
-		padding: 80px 20px 80px 20px;
-	}
+	.accordian {
 
-	.pushed-column {
-		padding-top: 148px;
+		.accordian-item {
+			cursor: pointer;
+			border-top: 1px solid #C2A10D;
+			padding: 20px 0;
+			
+
+			h4 {
+				font-family: "Gotham-Bold", sans-serif;
+				font-size: 1.1em;
+
+				&:after {
+
+					content: "";
+					display: block;
+					width: 22px;
+					height: 22px;
+					float: right;
+					@include transform(rotate(90deg));
+					background-image: url('/images/arrow-right.svg');
+					background-size: 100% 100%;
+					background-repeat: no-repeat;
+					background-position: 0 0;
+				}
+			}
+
+			p {
+				display: none;
+				cursor: text;
+				padding-top: 20px;
+			}
+
+			&.active  {
+				p {
+					display: block;
+				}
+
+				h4:after {
+					@include transform(rotate(-90deg));
+				}
+			}
+
+			&:last-child {
+				border-bottom: 1px solid #C2A10D;
+			}
+		}
 	}
 
 	h5 {
-		margin-bottom: 50px;
-		color: $colorTwo;
 		border: 1px solid $colorTwo;
-		width: intrinsic;
-		max-width: 140px;
+		color: $colorTwo;
 	}
 
 	h1 {
+		margin: 35px 0;
 		color: $colorTwo;
-		line-height: 1.2;
-		margin-bottom: 30px;
 	}
 
-	p {
-		color: $colorTwo;
-		opacity: 0.8;
-	}
-
-	p.small {
-		margin-top: 5px;
-	}
-
-	&.active {
-		display: block;
-	}
-
-	@include mq("small", "max-width") {
-		.col-6 {
-			width: 100%;
-			padding: 50px 0px 0px 0px;
-		}
-
-		.pushed-column {
-			padding-top: 0px;
-			padding-bottom: 50px;
-		}
+	.col-6:first-child p {
+		padding-right: 40px;
+		box-sizing: border-box;
 	}
 }
 

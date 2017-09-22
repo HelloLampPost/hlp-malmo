@@ -36,6 +36,11 @@ $( ".js-to-top" ).on( "click", function() {
 	return false;
 });
 
+$( ".accordian-item" ).on( "click", function() {
+  $( ".accordian-item" ).removeClass('active');
+	$(this).toggleClass('active');
+});
+
 $( ".js-scroll-down-button" ).on( "click", function() {
 	$('html, body').animate({
     	scrollTop: $(".process").offset().top
