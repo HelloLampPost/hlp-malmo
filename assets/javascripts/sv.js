@@ -21,8 +21,6 @@ jQuery.fn.extend({
     }
 });
 
-// Lazy Load The Image
-
 $(document).on('click', '.menu a', function(event){
     event.preventDefault();
 
@@ -31,17 +29,20 @@ $(document).on('click', '.menu a', function(event){
     }, 500);
 });
 
-// Lazy Load The Image
-$("img.lazy").lazyload({
-	threshold : 500,
-	effect : "fadeIn"
-});
-
 $( ".js-to-top" ).on( "click", function() {
 	$('html, body').animate({
     	scrollTop: $(".hero").offset().top
 	}, 600);
 	return false;
+});
+
+$( ".accordian-item" ).on( "click", function() {
+  if ( $(this).hasClass('active') ) {
+  	$(this).removeClass('active');
+	} else {
+    $( ".accordian-item" ).removeClass('active');
+  	$(this).toggleClass('active');
+  }
 });
 
 $( ".js-scroll-down-button" ).on( "click", function() {
@@ -53,11 +54,13 @@ $( ".js-scroll-down-button" ).on( "click", function() {
 
 $( ".js-learn-more" ).on( "click", function() {
 	$(this).toggleClass("active");
-	$(this).toggleText('көрсету', 'қайыру');
+	$(this).toggleText('Show More', 'Show Less');
 	$(".how-to-play").toggleClass("active");
 	$(".what-to-expect").toggleClass("active");
 	$('html, body').animate({
     	scrollTop: $(".how-to-play").offset().top
 	}, 600);
 	return false;
+});
+
 });
