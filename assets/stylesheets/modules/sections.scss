@@ -995,14 +995,14 @@
 			cursor: pointer;
 			border-top: 1px solid #C2A10D;
 			padding: 20px 0;
-			
 
 			h4 {
 				font-family: "Gotham-Bold", sans-serif;
 				font-size: 1.1em;
+				color: $colorTwo;
 
 				&:after {
-
+					transition: all 0.2s ease-in-out;
 					content: "";
 					display: block;
 					width: 22px;
@@ -1018,6 +1018,7 @@
 
 			p {
 				display: none;
+				color: $colorTwo;
 				cursor: text;
 				padding-top: 20px;
 			}
@@ -1051,6 +1052,26 @@
 	.col-6:first-child p {
 		padding-right: 40px;
 		box-sizing: border-box;
+	}
+
+	@include mq("small", "max-width") {
+		padding: 50px 0;
+
+		.col-6 {
+			width: 100%;
+		}
+
+		h1 {
+			margin: 20px 0;
+		}
+
+		.col-6:first-child {
+			margin-bottom: 40px;
+		}
+
+		.col-6:first-child p {
+			padding-right: 0;
+		}
 	}
 }
 

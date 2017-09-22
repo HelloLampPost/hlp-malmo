@@ -37,8 +37,12 @@ $( ".js-to-top" ).on( "click", function() {
 });
 
 $( ".accordian-item" ).on( "click", function() {
-  $( ".accordian-item" ).removeClass('active');
-	$(this).toggleClass('active');
+  if ( $(this).hasClass('active') ) {
+  	$(this).removeClass('active');
+	} else {
+    $( ".accordian-item" ).removeClass('active');
+  	$(this).toggleClass('active');
+  }
 });
 
 $( ".js-scroll-down-button" ).on( "click", function() {

@@ -1555,8 +1555,10 @@ a {
     padding: 20px 0; }
     .information-longform .accordian .accordian-item h4 {
       font-family: "Gotham-Bold", sans-serif;
-      font-size: 1.1em; }
+      font-size: 1.1em;
+      color: #2A2A2A; }
       .information-longform .accordian .accordian-item h4:after {
+        transition: all 0.2s ease-in-out;
         content: "";
         display: block;
         width: 22px;
@@ -1573,6 +1575,7 @@ a {
         background-position: 0 0; }
     .information-longform .accordian .accordian-item p {
       display: none;
+      color: #2A2A2A;
       cursor: text;
       padding-top: 20px; }
     .information-longform .accordian .accordian-item.active p {
@@ -1594,6 +1597,17 @@ a {
   .information-longform .col-6:first-child p {
     padding-right: 40px;
     box-sizing: border-box; }
+  @media (max-width: 960px) {
+    .information-longform {
+      padding: 50px 0; }
+      .information-longform .col-6 {
+        width: 100%; }
+      .information-longform h1 {
+        margin: 20px 0; }
+      .information-longform .col-6:first-child {
+        margin-bottom: 40px; }
+      .information-longform .col-6:first-child p {
+        padding-right: 0; } }
 
 .contact {
   width: 100%;

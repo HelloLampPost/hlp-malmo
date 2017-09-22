@@ -53,7 +53,7 @@ en:
   hello_parking_meter: "Hello Parking Mete #P8291"
   hello_vehicle: "Hello Vehicle #V8291"
 
-  global_goals_meta: "Information"
+  global_goals_meta: "United Nations"
   global_goals_title: "Global Goals"
   global_goals_text_1: "In September 2015, 193 world leaders agreed to 17 Global Goals for Sustainable Development. If these Goals are completed, it would mean an end to extreme poverty, inequality and climate change by 2030."
   global_goals_text_2: "Local initiatives are critical to the fulfilment of the UN goal and Malmö is one of the cities at the forefront, demonstrating how working towards sustainability generates local development and benefits society."
@@ -67,9 +67,9 @@ en:
   goal_4_title: "Climate Action"
   goal_4_text: "Malmö is taking urgent action to combat climate change and its impacts. The European Commission awarded Malmö for the best Sustainable Urban Mobility Planning Award in 2016. Today, 62,000 travellers use the cities bike rental scheme to commute to work along the beautiful 500 km of cycle tracks spread across the city. Malmö’s western harbour and Augustenborg are internationally cited examples of how to work in urban development in a climate smart way."
   goal_5_title: "Life Below Water"
-  goal_5_text: "Conserve and sustainably use the oceans, seas and marine resources for sustainable development"
+  goal_5_text: "The sea has played a central role in Malmö’s history as a source of industry and leisure. Indeed, over half of the City of Malmö area is sea! Malmö is therefore working in various ways to help people enjoy the sea sustainably. A new boat-washing facility has just opened, making it possible to clean boats without toxic paint, and boat owners can apply for subsidies to blast toxic paint. Measures have also been taken to reduce microplastic and other polluting emissions, such as reducing traffic and unsustainable sports-field materials. The City is also seeking to have Öresund declared as a UNESCO biosphere area, meaning an increased focus on sustainability."
 
-  contact_us: "About Us"
+  contact_us: "Contact"
   contact_us_title: "About Hello Lamp Post Malmö"
   contact_us_text_1: "Hello Lamp Post Malmö has been commissioned by XXXX and it is supported by XXXX."
   contact_us_text_2: "The project will run across the coastal walk between Marine Education Centre and Kommendant Huset."
