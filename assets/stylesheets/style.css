@@ -1696,7 +1696,7 @@ a {
     padding: 0 20px; }
   @media (max-width: 960px) {
     .supporters {
-      padding: 40px 0; }
+      padding: 20px 0; }
       .supporters h4 {
         text-align: center;
         margin-bottom: 40px;
