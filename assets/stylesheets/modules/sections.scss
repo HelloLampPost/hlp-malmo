@@ -1081,8 +1081,8 @@
 	display: block;
 	overflow: hidden;
 	position: relative;
-	background: $colorOne;
-	padding: 60px 0 40px 0;
+	background: $colorThree;
+	padding: 60px 0 60px 0;
 
 	.col-6 {
 		box-sizing: border-box;
@@ -1099,7 +1099,7 @@
 
 	h1 {
 		color: $colorTwo;
-		font-weight: 600;
+		font-family: "Gotham-Bold", sans-serif;
 		line-height: 1.2;
 		margin-bottom: 30px;
 	}
@@ -1117,10 +1117,10 @@
 	.link-btn-one {
 		margin-top: 40px;
 		background: $colorTwo;
-		color: $colorOne;
+		color: #fff;
 
 		&:after {
-			background-image: url('/images/arrow-yellow.svg');
+			background-image: url('/images/arrow-blue.svg');
 		}
 	}
 
@@ -1184,10 +1184,10 @@
 	height: auto;
 	width: 100%;
 	display: block;
-	padding: 70px 0;
+	padding: 20px 0;
 	height: auto;
 	overflow: auto;
-	background: $colorTwo;
+	background: #fff;
 
 	h4 {
 		color: #fff;
