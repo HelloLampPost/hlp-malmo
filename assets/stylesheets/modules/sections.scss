@@ -923,10 +923,10 @@
 	}
 
 	.button-next, .button-prev {
-		width: 40px;
-		height: 40px;
+		width: 35px;
+		height: 35px;
 		cursor: pointer;
-		margin-top: -10px;
+		margin-top: 7px;
 		display: block;
 		float: right;
 		background-image: url('/images/arrow-right.svg');
@@ -942,6 +942,7 @@
 	}
 
 	.button-prev {
+		margin-right: 10px;
 		@include transform(rotate(180deg));
 	}
 
