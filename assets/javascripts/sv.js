@@ -25,13 +25,13 @@ $(document).on('click', '.menu a', function(event){
     event.preventDefault();
 
     $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top -60
+        scrollTop: $( $.attr(this, 'href') ).offset().top -110
     }, 500);
 });
 
 $( ".js-to-top" ).on( "click", function() {
 	$('html, body').animate({
-    	scrollTop: $(".hero").offset().top
+    	scrollTop: $(".hero").offset().top -110
 	}, 600);
 	return false;
 });
@@ -58,9 +58,7 @@ $( ".js-learn-more" ).on( "click", function() {
 	$(".how-to-play").toggleClass("active");
 	$(".what-to-expect").toggleClass("active");
 	$('html, body').animate({
-    	scrollTop: $(".how-to-play").offset().top
+    	scrollTop: $(".how-to-play").offset().top -110
 	}, 600);
 	return false;
-});
-
 });
