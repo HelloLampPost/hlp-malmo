@@ -1520,7 +1520,7 @@ a {
     transform: rotate(180deg); }
   @media (max-width: 960px) {
     .object-icon {
-      padding: 20px 0; }
+      padding: 10px 0; }
       .object-icon .button-next, .object-icon .button-prev {
         display: none; }
       .object-icon .swiper-slide {
@@ -1528,7 +1528,7 @@ a {
       .object-icon h2 {
         width: 100%;
         color: #fff;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         font-size: 1.7em;
         text-align: center; }
       .object-icon h2.text-number {
