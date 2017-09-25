@@ -1513,7 +1513,7 @@ a {
     .object-icon .button-next:hover, .object-icon .button-prev:hover {
       opacity: 1; }
   .object-icon .button-prev {
-    margin-right: 10px;
+    margin-right: 5px;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
