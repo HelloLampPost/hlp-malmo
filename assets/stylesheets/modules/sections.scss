@@ -63,6 +63,38 @@
 	}
 }
 
+.holding {
+	width: 100%;
+	height: auto;
+	padding: 150px 0;
+	background: $colorThree;
+
+	.col-4 {
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	p {
+		padding-top: 30px;
+		color: $colorTwo;
+		line-height: 1.3;
+		font-family: "Gotham-bold", sans-serif;
+	}
+
+	.col-4 img {
+		width: 60%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	@include mq("small", "max-width") {
+		.col-4 {
+			width: 100%;
+		}
+	}
+}
+
 .hero {
 	width: 100%;
 	height: 90vh;
