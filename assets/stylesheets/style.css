@@ -850,8 +850,10 @@ a {
     display: block;
     margin: 0 auto; }
   @media (max-width: 960px) {
-    .holding .col-4 {
-      width: 100%; } }
+    .holding {
+      padding: 50px 0; }
+      .holding .col-4 {
+        width: 100%; } }
 
 .hero {
   width: 100%;
