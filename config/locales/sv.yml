@@ -1,15 +1,15 @@
 sv:
   logo: <img src="/images/logo-en.png"/>
-  country_code: "en"
+  country_code: "sv"
 
-  name: "Hello Malmö"
+  name: "Hallå Hållbara Malmö"
 
   how_it_works_link: "How It Works"
   information_link: "Information"
   global_goals_link: "Gobal Goals"
   contact_link: "Contact"
 
-  description: "Objects across Malmö are waking up and they want to talk to you! Hello Malmö will run from 16th October to 15th November."
+  description: "Föremål över hela Malmö vaknar till liv och vill prata med dig! Hallå Malmö går av stapeln mellan den 16 oktober och den 15 november."
   how_it_works: "How it works"
 
   ticker_title: "What is Malmö talking about?"
