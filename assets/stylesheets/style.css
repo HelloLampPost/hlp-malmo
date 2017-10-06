@@ -707,17 +707,22 @@ small, .font_small {
       .header .col-3 {
         width: 100%; }
       .header .logo img {
-        width: 110px; }
+        width: 110px;
+        margin-top: -20px;
+        margin-left: -10px; }
       .header .col-3 img {
         display: block;
         margin: 25px auto;
         float: none; } }
   @media (max-width: 350px) {
     .header .logo img {
-      width: 100px; } }
+      width: 110px; } }
 
 .en header .menu a {
   letter-spacing: -1px; }
+
+.sv header .logo img {
+  margin-left: 0px; }
 
 a {
   cursor: pointer;

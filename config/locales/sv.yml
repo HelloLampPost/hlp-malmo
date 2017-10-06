@@ -1,6 +1,6 @@
 sv:
-  logo: <img src="/images/logo-sv.png"/>
-  country_code: "en"
+  logo: <img src="/images/logo-sv.svg"/>
+  country_code: "sv"
 
   name: "Hello Malmö"
 

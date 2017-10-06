@@ -103,6 +103,8 @@
 
 		.logo img {
 			width: 110px;
+			margin-top: -20px;
+			margin-left: -10px;
 		}
 
 		.col-3 img {
@@ -114,11 +116,15 @@
 
 	@include mq("nano", "max-width") {
 		.logo img {
-			width: 100px;
+			width: 110px;
 		}
 	}
 }
 
 .en header .menu a {
 	letter-spacing: -1px;
+}
+
+.sv header .logo img {
+	margin-left: 0px;
 }
