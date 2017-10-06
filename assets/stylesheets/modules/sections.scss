@@ -65,9 +65,10 @@
 
 .hero {
 	width: 100%;
-	height: 90vh;
+	height: auto;
+	overflow: auto;
 	margin: 0;
-	padding: 50px 0 0 0;
+	padding: 50px 0 50px 0;
 	background: $colorThree;
 	position: relative;
 	overflow: hidden;
@@ -890,6 +891,10 @@
 	background: $colorThree;
 	padding: 40px 0;
 
+	.swiper-wrapper {
+		height: 100%;
+	}
+
 	h2 {
 		width: inherit;
 		float: left;
@@ -897,6 +902,39 @@
 		margin-bottom: 70px;
 		font-size: 1.7em;
 		color: $colorTwo;
+	}
+
+	.swiper-slide {
+		text-align: center;
+    font-size: 18px;
+    width: 16%;
+	}
+
+	.swiper-slide.bin {
+		width: 14%;
+	}
+
+	.swiper-slide.pier {
+		width: 45%;
+	}
+
+	.swiper-slide.box-three {
+		width: 10%;
+	}
+
+	.swiper-slide.bike {
+		width: 27%;
+		margin-top: 15px;
+	}
+
+	.swiper-slide.pump {
+		width: 6%;
+		margin-top: 58px;
+	}
+
+	.swiper-slide.box-two {
+		width: 15%;
+		margin-top: 53px;
 	}
 
 	.active-object {
@@ -957,6 +995,41 @@
 			width: 100%;
 		}
 
+		.swiper-slide.box-one {
+			width: 75px;
+			margin-top: 65px;
+		}
+
+		.swiper-slide.bin {
+			width: 75px;
+			margin-top: 50px;
+		}
+
+		.swiper-slide.pier {
+			width: 280px;
+			margin-top: 26px;
+		}
+
+		.swiper-slide.box-three {
+			width: 60px;
+			margin-top: 34px;
+		}
+
+		.swiper-slide.bike {
+			width: 170px;
+			margin-top: 40px;
+		}
+
+		.swiper-slide.pump {
+			width: 40px;
+			margin-top: 60px;
+		}
+
+		.swiper-slide.box-two {
+			width: 100px;
+			margin-top: 58px;
+		}
+
 		h2 {
 			width: 100%;
 			color: #fff;
@@ -966,7 +1039,7 @@
 		}
 
 		h2.text-number {
-			margin-bottom: 50px;
+			margin-bottom: 20px;
 		}
 
 		h2.active-object {
@@ -977,7 +1050,7 @@
 		}
 
 		.swiper-slide .image-object {
-			width: 80%;
+			width: 100%;
 			display: block;
 			margin: 0 auto;
 		}

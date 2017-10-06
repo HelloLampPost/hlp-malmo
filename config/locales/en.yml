@@ -1,5 +1,5 @@
 en:
-  logo: <img src="/images/en-logo.png"/>
+  logo: <img src="/images/logo-en.png"/>
   country_code: "en"
 
   name: "Hello Malmö"
@@ -43,13 +43,13 @@ en:
   text_title_1: "Text:"
   text_title_2: "to +46 76 519 44 41"
 
-  hello_utility_box: "Hello Utility box #U2122"
-  hello_bin: "Hello Bin #B4562"
-  hello_pier: "Hello Pier #P4472"
-  hello_public_bike: "Hello Public Bike #P2462"
-  hello_bike_pump: "Hello Bike Pump #B2462"
-  hello_bike_station: "Hello Bike Station #B4472"
-  hello_public_toilet: "Hello Public Toilet #P2342"
+  hello_utility_box: "Hello Utility box #GK421"
+  hello_bin: "Hello Bin #19"
+  hello_pier: "Hello Pier 6 #P4472"
+  hello_public_bike: "Hello Public Bike #20138"
+  hello_bike_pump: "Hello Bike Pump #13"
+  hello_bike_station: "Hello Utility Box #GK412"
+  hello_public_toilet: "Hello Utility Box #GK176"
   hello_parking_meter: "Hello Parking Mete #P8291"
   hello_vehicle: "Hello Vehicle #V8291"
 
