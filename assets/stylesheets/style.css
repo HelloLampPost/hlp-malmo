@@ -1550,25 +1550,25 @@ a {
         width: 100%; }
       .object-icon .swiper-slide.box-one {
         width: 75px;
-        margin-top: 65px; }
+        margin-top: 35px; }
       .object-icon .swiper-slide.bin {
         width: 75px;
-        margin-top: 50px; }
+        margin-top: 20px; }
       .object-icon .swiper-slide.pier {
         width: 280px;
-        margin-top: 26px; }
+        margin-top: -4px; }
       .object-icon .swiper-slide.box-three {
         width: 60px;
-        margin-top: 34px; }
+        margin-top: 4px; }
       .object-icon .swiper-slide.bike {
         width: 170px;
-        margin-top: 40px; }
+        margin-top: 10px; }
       .object-icon .swiper-slide.pump {
         width: 40px;
-        margin-top: 60px; }
+        margin-top: 30px; }
       .object-icon .swiper-slide.box-two {
         width: 100px;
-        margin-top: 58px; }
+        margin-top: 28px; }
       .object-icon h2 {
         width: 100%;
         color: #fff;
@@ -1576,9 +1576,10 @@ a {
         font-size: 1.7em;
         text-align: center; }
       .object-icon h2.text-number {
-        margin-bottom: 20px; }
+        margin-bottom: 0px; }
       .object-icon h2.active-object {
         padding: 10px 0;
+        font-size: 1.5em;
         margin-bottom: 20px;
         width: 100%;
         box-sizing: border-box; }
