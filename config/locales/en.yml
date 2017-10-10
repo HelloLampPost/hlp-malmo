@@ -4,6 +4,8 @@ en:
 
   name: "Hello Malmö"
 
+  video: "237609246"
+
   how_it_works_link: "How It Works"
   information_link: "Information"
   global_goals_link: "Gobal Goals"
@@ -70,8 +72,8 @@ en:
   goal_5_text: "Global Goal number 14 aims to achieve careful management of the essential global resource of the oceans and seas. The sea has played a central role in Malmö’s history as a source of industry and leisure. Indeed, over half of the City of Malmö area is sea! Malmö is therefore working in various ways to help people enjoy the sea sustainably. A new boat-washing facility has just opened, making it possible to have clean boats without toxic paint. Measures have also been taken to reduce microplastic and other polluting emissions, such as reducing traffic and unsustainable sports-field materials. The City is also seeking to have Öresund declared as a UNESCO biosphere area."
 
   contact_us: "Contact"
-  contact_us_title: "About Hello Lamp Post Malmö"
-  contact_us_text_1: "Hello Lamp Post Malmö has been commissioned by WWWW and it is supported by XXXX, YYYY and ZZZZ."
+  contact_us_title: "About Hello Sustainable Malmö"
+  contact_us_text_1: "Hello Sustainable Malmö has been commissioned by The City of Malmö."
   contact_us_text_2: "The project will run across the coastal walk between Marine Education Centre and Kommendant Huset."
   contact_us_text_3: "Hello Lamp Post was conceived and built by PAN Studio. Hello Lamp Post was first commissioned for Watershed’s Playable City Award 2013 and ran for 8 weeks in Bristol. The project was developed with Tom Armitage and Gyorgyi Galik."
   contact_us_text_4: "If you have any questions about the project you can get in touch with us here."

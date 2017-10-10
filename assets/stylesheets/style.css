@@ -953,6 +953,7 @@ a {
 
 .hero.message {
   background: #FFD100;
+  display: none;
   height: 500px; }
   .hero.message h1 {
     text-align: center;
@@ -1230,6 +1231,7 @@ a {
         top: 55%; } }
 
 .process {
+  border-top: 1px solid #00a1c9;
   background: #00B5E2;
   height: auto;
   overflow: auto;

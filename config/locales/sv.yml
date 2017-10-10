@@ -1,8 +1,10 @@
 sv:
-  logo: <img src="/images/logo-en.svg"/>
+  logo: <img src="/images/logo-sv.svg"/>
   country_code: "sv"
 
   name: "Hallå Hållbara Malmö"
+
+  video: "237541466"
 
   how_it_works_link: "Hur funkar det?"
   information_link: "Information"
@@ -43,13 +45,13 @@ sv:
   text_title_1: "sms:a"
   text_title_2: "till 076 519 44 41"
 
-  hello_utility_box: "Hello Utility box #GK421"
-  hello_bin: "Hello Bin #19"
-  hello_pier: "Hello Pier 6 #P4472"
-  hello_public_bike: "Hello Public Bike #20138"
-  hello_bike_pump: "Hello Bike Pump #13"
-  hello_bike_station: "Hello Utility Box #GK412"
-  hello_public_toilet: "Hello Utility Box #GK176"
+  hello_utility_box: "Hej Elskåp #GK421"
+  hello_bin: "Hej Papperskorg #19"
+  hello_pier: "Hej Brygga 6 #P4472"
+  hello_public_bike: "Hej Cykel #20138"
+  hello_bike_pump: "Hej Cykelpump #13"
+  hello_bike_station: "Hello Elskåp #GK412"
+  hello_public_toilet: "Hello Elskåp #GK176"
   hello_parking_meter: "Hello Parking Mete #P8291"
   hello_vehicle: "Hello Vehicle #V8291"
 
@@ -70,8 +72,8 @@ sv:
   goal_5_text: "Mål 14 är att bevara och nyttja haven och de marina resurserna på ett hållbart sätt. Havet har spelat en betydande roll i Malmös historia, som källa till både industri och fritid. Faktum är att halva Malmös yta är hav! Malmö arbetar därför aktivt för att hjälpa människor att njuta av havet på ett hållbart sätt. Nyligen öppnade en ny båttvätt som gör det möjligt att ha rena båtar utan giftig bottenfärg. Det har också gjorts satsningar för att minska mikroplaster och andra förorenande utsläpp, som att minska trafik och icke-hållbara material på idrottsplatser. Malmö stad strävar också efter att Öresund ska utses till ett biosfärområde av Unesco."
 
   contact_us: "kontakt"
-  contact_us_title: "Om Hello Lamp Post Malmö"
-  contact_us_text_1: "Hello Lamp Post Malmö utförs på uppdrag av WWWW och med stöd av XXXX, YYYY och ZZZZ."
+  contact_us_title: "Om Hallå hållbara Malmö"
+  contact_us_text_1: "Hallå hållbara Malmö utförs på uppdrag av Malmö Stad."
   contact_us_text_2: "Projektet kommer att äga rum längs strandpromenaden mellan Marinpedagogiskt center och Kommendantuset."
   contact_us_text_3: "Hello Lamp Post har utformats och skapats av PAN Studio. Hello Lamp Post gjordes först på uppdrag av Watershed's Playable City Award 2013 i Bristol och pågick i åtta veckor. Projektet utvecklades i samarbete med Tom Armitage och Gyorgyi Galik."
   contact_us_text_4: "Om du har några frågor om projektet får du gärna kontakta oss."
