@@ -54,7 +54,7 @@ $( ".js-scroll-down-button" ).on( "click", function() {
 
 $( ".js-learn-more" ).on( "click", function() {
 	$(this).toggleClass("active");
-	$(this).toggleText('Show More', 'Show Less');
+	$(this).toggleText('Visa Mer', 'Visa Mindre');
 	$(".how-to-play").toggleClass("active");
 	$(".what-to-expect").toggleClass("active");
 	$('html, body').animate({
