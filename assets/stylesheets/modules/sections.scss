@@ -237,7 +237,6 @@
 
 .hero.message {
 	background: $colorOne;
-	display: none;
 	height: 500px;
 
 	h1 {
@@ -560,7 +559,6 @@
 }
 
 .process {
-	border-top: 1px solid darken($colorThree, 5%);
 	background: $colorThree;
 	height: auto;
 	overflow: auto;

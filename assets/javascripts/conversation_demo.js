@@ -1,5 +1,7 @@
 var ConversationDemo = function() {
 
+  console.log('yo!');
+
   if ('classList' in document.createElement('div')) {
 
     this.api_url = ''
