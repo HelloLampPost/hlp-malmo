@@ -1727,7 +1727,7 @@ a {
   height: auto;
   width: 100%;
   display: block;
-  padding: 20px 0;
+  padding: 10px 0;
   height: auto;
   overflow: auto;
   background: #fff; }
@@ -1735,11 +1735,13 @@ a {
     color: #fff;
     margin-top: 40px; }
   .supporters .col-3 img {
-    width: 70%;
+    width: 80%;
     display: block;
     margin: 0 auto;
     float: none;
     padding: 0 20px; }
+  .supporters .row:nth-child(2) .col-3 img {
+    padding-bottom: 0; }
   @media (max-width: 960px) {
     .supporters {
       padding: 20px 0; }
