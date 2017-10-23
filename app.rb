@@ -51,6 +51,10 @@ class HelloLamppostWebsite < Sinatra::Base
     end
   end
 
+  get '/survey' do
+    redirect "https://docs.google.com/forms/d/e/1FAIpQLSdm5phYBgjy6y6VkQTrpc_8OWV4CDIeP5zIU4laBS5cPblRqA/viewform"
+  end
+
   get '/' do
     @page_title = I18n.t(:home_title)
     erb :index
