@@ -1167,7 +1167,8 @@ a {
     right: 25px;
     border-radius: 2px 2px 0 0;
     z-index: 2;
-    opacity: 0.3; }
+    opacity: 0;
+    display: none; }
   .hero.message .bubble .object-ref a {
     color: #fff;
     border-bottom: 0; }
@@ -1727,7 +1728,7 @@ a {
   height: auto;
   width: 100%;
   display: block;
-  padding: 10px 0;
+  padding: 10px 0 0 0;
   height: auto;
   overflow: auto;
   background: #fff; }
