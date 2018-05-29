@@ -626,18 +626,17 @@ small, .font_small {
   @media (max-width: 960px) {
     .footer p, .footer a {
       margin: 10px 0;
-      display: block;
+      display: inline;
       width: intrinsic; }
     .footer .right {
       float: left; }
       .footer .right .js-to-top {
-        text-align: left;
-        float: left; } }
-
-#malmo-footer span {
-  color: #000; }
-#malmo-footer a {
-  text-decoration: underline; }
+        text-align: right;
+        float: right; } }
+  @media (max-width: 760px) {
+    .footer .js-to-top {
+      text-align: left !important;
+      float: left !important; } }
 
 .header {
   width: 100%;
@@ -1055,11 +1054,11 @@ a {
       right: 0;
       left: auto; }
   .hero.message .bubble h4 {
-    color: #ECBE2B;
+    color: #FFD100;
     font-family: "Gotham-bold", sans-serif;
     padding-bottom: 20px; }
   .hero.message .bubble.question h4 {
-    color: #4BC0ED; }
+    color: #00B5E2; }
   .hero.message .bubble.answer.off {
     -webkit-transform: translateX(150%);
     -moz-transform: translateX(150%);
@@ -1120,7 +1119,7 @@ a {
     appearance: none;
     cursor: pointer; }
     .hero.message button:hover {
-      color: #ECBE2B; }
+      color: #FFD100; }
     .hero.message button:after {
       content: "";
       display: block;
@@ -1143,7 +1142,7 @@ a {
     margin-left: 0px;
     margin-right: 10px; }
   .hero.message button.new-question:hover {
-    color: #4BC0ED; }
+    color: #00B5E2; }
   .hero.message button:nth-child(2) {
     float: right; }
   .hero.message .bubble.question .shadow {
@@ -1476,7 +1475,7 @@ a {
     width: inherit;
     float: left;
     margin-right: 10px;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
     font-size: 1.7em;
     color: #2A2A2A; }
   .object-icon .swiper-slide {
@@ -1500,7 +1499,7 @@ a {
     margin-top: 53px; }
   .object-icon .active-object {
     color: #fff;
-    background: rgba(255, 255, 255, 0.3);
+    background: #2A2A2A;
     border-radius: 4px 4px 4px 0;
     padding: 3px 10px;
     margin-top: -6px;
@@ -1512,10 +1511,10 @@ a {
       background-position: 0 0;
       background-repeat: no-repeat;
       background-size: 100% 100%;
-      width: 27px;
+      width: 28px;
       height: 27px;
       position: absolute;
-      bottom: -25px;
+      bottom: -15px;
       left: 0; }
   .object-icon .button-next, .object-icon .button-prev {
     width: 35px;

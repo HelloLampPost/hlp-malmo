@@ -11,7 +11,7 @@ sv:
   global_goals_link: "Globala målen"
   contact_link: "Kontakt"
 
-  description: "Föremål över hela Malmö vaknar till liv och vill prata med dig! Hallå hållbara Malmö går av stapeln mellan den 11 oktober och den 15 november."
+  description: "Föremål över hela Malmö vaknar till liv och vill prata med dig! Hallå hållbara Malmö går av stapeln mellan den 9 juni och den 22 oktober 2018."
   how_it_works: "Hur funkar det?"
 
   ticker_title: "Vad pratar Malmö om?"
@@ -33,8 +33,8 @@ sv:
   information_title: "Har du någonsin undrat hur det skulle vara att prata med staden du bor i?"
   information_text: "Städer över hela världen har vaknat och börjat prata med sina invånare (i Japan, Singapore, Storbritannien, Kazakstan, Frankrike och USA)."
   information_text_2: "Nu har turen kommit till Malmö. En bit av Malmös kust kommer att vakna till liv och vilja lära sig allt som finns att veta. Vart är det alla skyndar på morgonen? Vilka är de bästa platserna för att träffa vänner? Vad fanns här förut? Vad har Malmöborna för framtidsdrömmar?"
-  information_cta_1: "Visa Mer"
-  information_cta_2: "Visa Mindre"
+  information_cta_1: "Visa mer"
+  information_cta_2: "Visa mindre"
 
   more_information: "Mer information"
   more_information_text_1: "Om man tittar noga ser man att de flesta föremål runt om i staden är märkta med en referenskod. De här koderna används för skötsel och underhåll och gör det möjligt att skilja ett föremål från ett annat. Hello Lamp Post ger koderna ett nytt användningsområde genom att släppa in lokala samtal i det offentliga rummet."
@@ -42,7 +42,7 @@ sv:
   more_information_text_3: "Interaktionen tar formen av ett samtal. Föremålen är nyfikna på världen runt omkring och vill veta mer om den. Svaren på deras frågor delas med andra spelare, och föremålen börjar förstå stadsdelens personlighet och människorna som bor där."
   more_information_text_4: "Samtal kan påbörjas från alla mobiltelefoner med sms-funktion. Det är gratis att spela (vanliga sms- och datakostnader gäller) och det passar alla åldrar."
 
-  text_title_1: "sms:a"
+  text_title_1: "SMS:a"
   text_title_2: "till 076 519 44 41"
 
   hello_utility_box: "Hej Elskåp #GK421"
@@ -50,10 +50,10 @@ sv:
   hello_pier: "Hej Brygga 6 #P4472"
   hello_public_bike: "Hej Cykel #20138"
   hello_bike_pump: "Hej Cykelpump #13"
-  hello_bike_station: "Hello Elskåp #GK412"
-  hello_public_toilet: "Hello Elskåp #GK176"
-  hello_parking_meter: "Hello Parking Mete #P8291"
-  hello_vehicle: "Hello Vehicle #V8291"
+  hello_bike_station: "Hallå Elskåp #GK412"
+  hello_public_toilet: "Hallå Elskåp #GK176"
+  hello_parking_meter: "Hallå Parking Mete #P8291"
+  hello_vehicle: "Hallå Vehicle #V8291"
 
   global_goals_meta: "FN"
   global_goals_title: "Globala mål"
@@ -71,13 +71,13 @@ sv:
   goal_5_title: "Mål 14: Hav och marina resurser"
   goal_5_text: "Mål 14 är att bevara och nyttja haven och de marina resurserna på ett hållbart sätt. Havet har spelat en betydande roll i Malmös historia, som källa till både industri och fritid. Faktum är att halva Malmös yta är hav! Malmö arbetar därför aktivt för att hjälpa människor att njuta av havet på ett hållbart sätt. Nyligen öppnade en ny båttvätt som gör det möjligt att ha rena båtar utan giftig bottenfärg. Det har också gjorts satsningar för att minska mikroplaster och andra förorenande utsläpp, som att minska trafik och icke-hållbara material på idrottsplatser. Malmö stad strävar också efter att Öresund ska utses till ett biosfärområde av Unesco."
 
-  contact_us: "kontakt"
+  contact_us: "Kontakt"
   contact_us_title: "Om Hallå hållbara Malmö"
   contact_us_text_1: "Hallå hållbara Malmö utförs på uppdrag av Malmö Stad."
   contact_us_text_2: "Projektet kommer att äga rum längs strandpromenaden mellan Marinpedagogiskt center och Kommendantuset."
   contact_us_text_3: "Hello Lamp Post har utformats och skapats av PAN Studio. Hello Lamp Post gjordes först på uppdrag av Watershed's Playable City Award 2013 i Bristol och pågick i åtta veckor. Projektet utvecklades i samarbete med Tom Armitage och Gyorgyi Galik."
   contact_us_text_4: "Om du har några frågor om projektet får du gärna kontakta oss."
-  contact_us_cta: "kontakta oss"
+  contact_us_cta: "Kontakta oss"
 
   hello_lampost_brighton: "Vi väckte gatuföremål till liv i september 2016 som en del av Brighton Digital Festival."
   hello_lampost_austin: "Hello Lamp Post i Austin under mars 2015 i samband med SXSW Festival."

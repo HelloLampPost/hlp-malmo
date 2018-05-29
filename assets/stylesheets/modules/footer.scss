@@ -39,29 +39,27 @@
 	}
 
 	@include mq("small", "max-width") {
+
 		p, a {
 			margin: 10px 0;
-			display: block;
+			display: inline;
 			width: intrinsic;
 		}
 
 		.right {
 			float: left;
 
-		.js-to-top {
-			text-align: left;
-			float: left;
+			.js-to-top {
+				text-align: right;
+				float: right;
+			}
 		}
 	}
-	}
-}
 
-#malmo-footer {
-	span {
-		color: #000;
-	}
-
-	a {
-		text-decoration: underline;
+	@include mq("extra-small", "max-width") {
+		.js-to-top {
+			text-align: left !important;
+			float: left !important;;
+		}
 	}
 }

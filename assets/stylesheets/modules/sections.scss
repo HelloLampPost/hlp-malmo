@@ -159,7 +159,7 @@
 	}
 
 	.object-ref a {
-	  border-bottom: 2px solid black;
+		border-bottom: 2px solid black;
 	}
 
 	@include mq("medium", "max-width") {
@@ -266,22 +266,22 @@
 
 	.bubble {
 		margin-top: 40px;
-	  @include calc(width, "50% - 15px");
-	  box-sizing: border-box;
-	  position: absolute;
-	  z-index: 10;
+		@include calc(width, "50% - 15px");
+		box-sizing: border-box;
+		position: absolute;
+		z-index: 10;
 	}
 
 	.bubble.question {
-	  left: 0;
-	  @include transform(translateX(0%));
-	  @include transition(all, 0.5s, ease-in-out);
+		left: 0;
+		@include transform(translateX(0%));
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.answer {
-	  right: 0;
-	  @include transform(translateX(0%));
-	  @include transition(all, 0.5s, ease-in-out);
+		right: 0;
+		@include transform(translateX(0%));
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	img.bg-image {
@@ -291,38 +291,38 @@
 	}
 
 	.bubble.question {
-	  top: 60px;
+		top: 60px;
 	}
 
 	.bubble.answer {
-	  top: 80px;
+		top: 80px;
 	}
 
 	.bubble .bubble-inner {
-	  width: 100%;
-	  box-sizing: border-box;
-	  padding: 25px;
-	  background: $colorTwo;
-	  color: #fff;
-	  z-index: 2;
-	  font-size: 21px;
-	  font-family: "Gotham-bold", sans-serif;
-	  line-height: 1.3;
-	   @include border-radius(0 10px 10px 10px);
+		width: 100%;
+		box-sizing: border-box;
+		padding: 25px;
+		background: $colorTwo;
+		color: #fff;
+		z-index: 2;
+		font-size: 21px;
+		font-family: "Gotham-bold", sans-serif;
+		line-height: 1.3;
+		@include border-radius(0 10px 10px 10px);
 
-	  &:after {
-	  	content: "";
-	  	display: block;
-	  	background-image: url('/images/bubble_triangle.svg');
-	  	background-position: 0 0;
-	  	background-repeat: no-repeat;
-	  	background-size: 100% 100%;
-	  	width: 40px;
-	  	height: 40px;
-	  	position: absolute;
-	  	top: -30px;
-	  	left: 0;
-	  }
+		&:after {
+			content: "";
+			display: block;
+			background-image: url('/images/bubble_triangle.svg');
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			width: 40px;
+			height: 40px;
+			position: absolute;
+			top: -30px;
+			left: 0;
+		}
 	}
 
 	.bubble.answer .bubble-inner {
@@ -338,33 +338,33 @@
 	}
 
 	.bubble h4 {
-		color: #ECBE2B;
+		color: $colorOne;
 		font-family: "Gotham-bold", sans-serif;
 		padding-bottom: 20px;
 	}
 
 	.bubble.question h4 {
-		color: #4BC0ED;
+		color: $colorThree;
 	}
 
 	.bubble.answer.off {
-	  @include transform(translateX(150%));
-	  right: 0;
-	  @include transition(all, 0.5s, ease-in-out);
+		@include transform(translateX(150%));
+		right: 0;
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.question.off {
-	  @include transform(translateX(-150%));
-	  left: 0;
-	  @include transition(all, 0.5s, ease-in-out);
+		@include transform(translateX(-150%));
+		left: 0;
+		@include transition(all, 0.5s, ease-in-out);
 	}
 
 	.bubble.question .text {
-	  border-bottom-left-radius: 0;
+		border-bottom-left-radius: 0;
 	}
 
 	.bubble.answer .text {
-	  border-top-right-radius: 0;
+		border-top-right-radius: 0;
 	}
 
 	.buttons {
@@ -391,76 +391,76 @@
 		border-radius: 0;
 		@include border-radius(5px);
 		-webkit-appearance: none;
-   		-moz-appearance: none;
-   		appearance: none;
-   		cursor: pointer;
+		-moz-appearance: none;
+		appearance: none;
+		cursor: pointer;
 
-   		&:hover {
-   			color: #ECBE2B;
-   		}
+		&:hover {
+			color: $colorOne;
+		}
 
-   		&:after {
-				content: "";
-				display: block;
-				width: 17px;
-				height: 17px;
-				background-image: url('/images/arrow-yellow.svg');
-				margin-top: 2px;
-				background-size: 100% 100%;
-				background-position: 0 0;
-				float: right;
-				margin-left: 10px;
-			}
-   	}
+		&:after {
+			content: "";
+			display: block;
+			width: 17px;
+			height: 17px;
+			background-image: url('/images/arrow-yellow.svg');
+			margin-top: 2px;
+			background-size: 100% 100%;
+			background-position: 0 0;
+			float: right;
+			margin-left: 10px;
+		}
+	}
 
-   	button.new-question {
-   		&:after {
-   			@include transform(rotate(180deg));
-   			float: left;
-   			background-image: url('/images/arrow-blue.svg');
-   			margin-left: 0px;
-   			margin-right: 10px;
-   		}
+	button.new-question {
+		&:after {
+			@include transform(rotate(180deg));
+			float: left;
+			background-image: url('/images/arrow-blue.svg');
+			margin-left: 0px;
+			margin-right: 10px;
+		}
 
-   		&:hover {
-   			color: #4BC0ED;
-   		}
-   	}
+		&:hover {
+			color: $colorThree;
+		}
+	}
 
-   	button:nth-child(2) {
-   		float: right;
-   	}
+	button:nth-child(2) {
+		float: right;
+	}
 
 	.bubble.question .shadow {
-	  left: -40px;
+		left: -40px;
 	}
 
 	.bubble.answer .shadow {
-	  top: 190px;
-	  left: 40px;
+		top: 190px;
+		left: 40px;
 	}
 
 	.bubble.question {
-	  padding-bottom: 25px;
+		padding-bottom: 25px;
 	}
 
 	.bubble.answer {
-	  padding-top: 25px;
+		padding-top: 25px;
 	}
 
 	.bubble .object-ref {
 		font-family: "Gotham-bold", sans-serif;
 		color: #fff;
-	  height: 25px;
-	  padding-top: 8px;
-	  padding-left: 10px;
-	  padding-right: 10px;
-	  position: absolute;
-	  top: 50px;
+		height: 25px;
+		padding-top: 8px;
+		padding-left: 10px;
+		padding-right: 10px;
+		position: absolute;
+		top: 50px;
 		right: 25px;
-	  border-radius: 2px 2px 0 0;
-	  z-index: 2;
-	  opacity: 0;
+		border-radius: 2px 2px 0 0;
+		z-index: 2;
+		opacity: 0;
 		display: none;
 	}
 
@@ -527,7 +527,7 @@
 		}
 
 		.bubble.answer {
-	  		top: 220px;
+			top: 220px;
 		}
 	}
 }
@@ -571,13 +571,13 @@
 	}
 
 	.right-img{
-      top: 55px;
+		top: 55px;
 	}
 
 	.top-img {
-    margin-right: 15px;
-    top: -22px;
-    right: -1px;
+		margin-right: 15px;
+		top: -22px;
+		right: -1px;
 	}
 
 	.process-item {
@@ -617,14 +617,14 @@
 
 	.top-img {
 		position: absolute;
-    top: -25px;
-    left: 0;
-    z-index: 10;
-    width: 210px;
-    margin-left: auto;
-    margin-right: 25px; /* auto */
-    left: 0;
-    right: 0;
+		top: -25px;
+		left: 0;
+		z-index: 10;
+		width: 210px;
+		margin-left: auto;
+		margin-right: 25px; /* auto */
+		left: 0;
+		right: 0;
 	}
 
 	.right-img {
@@ -636,9 +636,9 @@
 	}
 
 	.right-img-large {
-    width: 125px;
-    right: -20px;
-  }
+		width: 125px;
+		right: -20px;
+	}
 
 	.image-circle {
 		width: 170px;
@@ -900,15 +900,15 @@
 		width: inherit;
 		float: left;
 		margin-right: 10px;
-		margin-bottom: 70px;
+		/* margin-bottom: 70px; */
 		font-size: 1.7em;
 		color: $colorTwo;
 	}
 
 	.swiper-slide {
 		text-align: center;
-    font-size: 18px;
-    width: 16%;
+		font-size: 18px;
+		width: 16%;
 	}
 
 	.swiper-slide.bin {
@@ -940,25 +940,25 @@
 
 	.active-object {
 		color: #fff;
-		background: rgba(255, 255, 255, 0.3);
+		background: $colorTwo;
 		border-radius: 4px 4px 4px 0 ;
 		padding: 3px 10px;
 		margin-top: -6px;
 		position: relative;
 
 		&:after {
-	  	content: "";
-	  	display: block;
-	  	background-image: url('/images/bubble_triangle_white_transparent.svg');
-	  	background-position: 0 0;
-	  	background-repeat: no-repeat;
-	  	background-size: 100% 100%;
-	  	width: 27px;
-	  	height: 27px;
-	  	position: absolute;
-	  	bottom: -25px;
-	  	left: 0;
-	  }
+			content: "";
+			display: block;
+			background-image: url('/images/bubble_triangle_white_transparent.svg');
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			width: 28px;
+			height: 27px;
+			position: absolute;
+			bottom: -15px;
+			left: 0;
+		}
 	}
 
 	.button-next, .button-prev {
