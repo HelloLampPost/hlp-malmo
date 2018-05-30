@@ -1144,7 +1144,9 @@ a {
     appearance: none;
     cursor: pointer; }
     .hero.message button:hover {
-      color: #FFD100; }
+      color: #FFD100;
+      -webkit-transition: all 0.2s ease-out 0s;
+      transition: all 0.2s ease-out 0s; }
     .hero.message button:after {
       content: "";
       display: block;
@@ -1167,7 +1169,9 @@ a {
     margin-left: 0px;
     margin-right: 10px; }
   .hero.message button.new-question:hover {
-    color: #00B5E2; }
+    color: #00B5E2;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s; }
   .hero.message button:nth-child(2) {
     float: right; }
   .hero.message .bubble.question .shadow {

@@ -397,6 +397,8 @@
 
 		&:hover {
 			color: $colorOne;
+			-webkit-transition: all 0.2s ease-out 0s;
+			transition: all 0.2s ease-out 0s;
 		}
 
 		&:after {
@@ -424,6 +426,8 @@
 
 		&:hover {
 			color: $colorThree;
+			-webkit-transition: all 0.2s ease-out 0s;
+			transition: all 0.2s ease-out 0s;
 		}
 	}
 
