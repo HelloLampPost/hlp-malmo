@@ -24,7 +24,7 @@ sv:
   pick_an_object_text: "Håll utkik efter föremål med en kod på."
 
   say_hello: "Säg hallå"
-  say_hello_text: "Skicka ett sms till nummer 076 519 44 41 i det här formatet: “Hallå” + typ av föremål + #kod, t.ex. “Hallå papperskorg #B6291”"
+  say_hello_text: "Skicka ett sms till nummer 076 519 44 41 i det här formatet: “Hallå” + typ av föremål + #kod, t.ex. “Hallå cykelpump #B6291”"
 
   keep_talking: "Prata på"
   keep_talking_text: "Du får snabbt svar. Sedan kan du svara på föremålets frågor och få veta vad andra har att säga."

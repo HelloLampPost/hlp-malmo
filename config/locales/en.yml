@@ -24,7 +24,7 @@ en:
   pick_an_object_text: "Look out for a street object with a code on it."
 
   say_hello: "Say Hello"
-  say_hello_text: "Send a text to +46 76 519 44 41 in this format: “Hello” + object type + #code e.g. “Hello Bin #B6291”."
+  say_hello_text: "Send a text to +46 76 519 44 41 in this format: “Hello” + object type + #code e.g. “Hello Bike Pump #B6291”."
 
   keep_talking: "Keep Talking"
   keep_talking_text: "You’ll soon get a reply. Answer the object’s questions and learn what other people have to say."
