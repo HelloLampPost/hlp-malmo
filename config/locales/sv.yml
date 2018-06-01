@@ -11,7 +11,7 @@ sv:
   global_goals_link: "Globala målen"
   contact_link: "Kontakt"
 
-  description: "Föremål över hela Malmö vaknar till liv och vill prata med dig! Hallå hållbara Malmö går av stapeln mellan den 9 juni och den 22 oktober 2018."
+  description: "Staden har vaknat, prata med den! Hallå hållbara Malmö går av stapeln mellan den 9 juni och den 22 oktober 2018."
   how_it_works: "Hur funkar det?"
 
   ticker_title: "Vad pratar Malmö om?"
@@ -76,7 +76,7 @@ sv:
   contact_us_text_1: "Hallå hållbara Malmö utförs på uppdrag av Malmö Stad."
   contact_us_text_2: "Projektet kommer att äga rum längs strandpromenaden mellan Marinpedagogiskt center och Kommendantuset."
   contact_us_text_3: "Hello Lamp Post har utformats och skapats av PAN Studio. Hello Lamp Post gjordes först på uppdrag av Watershed's Playable City Award 2013 i Bristol och pågick i åtta veckor. Projektet utvecklades i samarbete med Tom Armitage och Gyorgyi Galik."
-  contact_us_text_4: "Om du har några frågor om projektet får du gärna kontakta oss."
+  contact_us_text_4: "Om du har några frågor om projektet kan du kontakta:<br> Linnea Uppsäll, projektledare, miljöförvaltningen, Malmö stad <br> E-post: <a href=\"mailto:linnea.uppsall@malmo.se\">linnea.uppsall@malmo.se</a> <br> <br> Eller Hej Lamp Post:"
   contact_us_cta: "Kontakta oss"
 
   hello_lampost_brighton: "Vi väckte gatuföremål till liv i september 2016 som en del av Brighton Digital Festival."
